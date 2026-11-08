@@ -1,0 +1,12 @@
+{
+  "name": "nyt-recipe-scraper-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch-fixtures": "node fetch-fixtures.mjs",
+    "test": "node run.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}
